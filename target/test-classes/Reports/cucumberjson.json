@@ -1,0 +1,369 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-05T14:15:25.442Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7245506166,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksEcommerce.LaunchBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Opening E-Commerce Website",
+        "description": "",
+        "id": "automation-of-e-commerce-website;opening-e-commerce-website",
+        "after": [
+          {
+            "result": {
+              "duration": 3434128784,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksEcommerce.CloseBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 52300901426,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter website",
+            "match": {
+              "location": "StepDefinition.enter_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6389016023,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Search Product",
+            "match": {
+              "location": "StepDefinition.search_Product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 289906699,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click search button",
+            "match": {
+              "location": "StepDefinition.click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[text()\u003d\u0027Acton Medium Back Mesh Chair Grey\u0027]\"}\n  (Session info: chrome\u003d81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027HOME-PC\u0027, ip: \u0027192.168.1.100\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\home\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52497}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 61df07f5b4bef93af8bd0c48de9cfbb5\n*** Element info: {Using\u003dxpath, value\u003d//div[text()\u003d\u0027Acton Medium Back Mesh Chair Grey\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat com.steps.LibraryClass.ClickButton(LibraryClass.java:34)\r\n\tat com.steps.StepDefinition.select_the_required_product(StepDefinition.java:32)\r\n\tat ✽.Select the required product(file:/C:/Users/home/eclipse-workspace/CucumberWebsite/src/test/resources/ecommerce.feature:7)\r\n",
+              "duration": 1275220373,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Select the required product",
+            "match": {
+              "location": "StepDefinition.select_the_required_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53193,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Add the selected product to cart",
+            "match": {
+              "location": "StepDefinition.add_the_selected_product_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31916,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Cancel the pop-up",
+            "match": {
+              "location": "StepDefinition.cancel_the_pop_up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19598,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Select the Cart at top right",
+            "match": {
+              "location": "StepDefinition.select_the_Cart_at_top_right()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19038,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Choose view cart \u0026 checkout",
+            "match": {
+              "location": "StepDefinition.choose_view_cart_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19038,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Continue Checkout",
+            "match": {
+              "location": "StepDefinition.continue_Checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19038,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Select Checkout as guest",
+            "match": {
+              "location": "StepDefinition.select_Checkout_as_guest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104707,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Fill Customer details",
+            "match": {
+              "location": "StepDefinition.fill_Customer_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First Name",
+                  "Last Name",
+                  "Email",
+                  "Mobile Number"
+                ]
+              },
+              {
+                "cells": [
+                  "Arokiya Renit",
+                  "D",
+                  "reni.renny12@gmail.com",
+                  "0987333136"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29676,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Tick the privacy policy",
+            "match": {
+              "location": "StepDefinition.tick_the_privacy_policy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19597,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Proceed to delivery preference",
+            "match": {
+              "location": "StepDefinition.proceed_to_delivery_preference()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19038,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Select Click and Collect",
+            "match": {
+              "location": "StepDefinition.select_Click_and_Collect()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25197,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Enter area",
+            "match": {
+              "location": "StepDefinition.enter_area(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Caroline Springs"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19037,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Enter area using robot class",
+            "match": {
+              "location": "StepDefinition.enter_area_using_robot_class()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18477,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Select set as my store",
+            "match": {
+              "location": "StepDefinition.select_set_as_my_store()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22957,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Enter billing address",
+            "match": {
+              "location": "StepDefinition.enter_billing_address(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "12 Caroline Springs Boulevard, Caroline Springs VIC 3023"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19038,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Select address using keyboard function",
+            "match": {
+              "location": "StepDefinition.select_address_using_keyboard_function()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19038,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Select proceed to payment",
+            "match": {
+              "location": "StepDefinition.select_proceed_to_payment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27997,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "Enter Card Details",
+            "match": {
+              "location": "StepDefinition.enter_Card_Details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Card Number",
+                  "2253645956573"
+                ]
+              },
+              {
+                "cells": [
+                  "Month Expiry",
+                  "11"
+                ]
+              },
+              {
+                "cells": [
+                  "Year Expiry",
+                  "2023"
+                ]
+              },
+              {
+                "cells": [
+                  "CVV",
+                  "234"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19037,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "Click pay now",
+            "match": {
+              "location": "StepDefinition.click_pay_now()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Automation of E-Commerce Website",
+    "description": "",
+    "id": "automation-of-e-commerce-website",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/home/eclipse-workspace/CucumberWebsite/src/test/resources/ecommerce.feature",
+    "tags": []
+  }
+]

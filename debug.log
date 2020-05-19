@@ -1,0 +1,18 @@
+[0505/204105.644:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0505/204105.730:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0505/204105.730:ERROR:exception_snapshot_win.cc(98)] thread ID 4488 not found in process
+[0507/215446.896:ERROR:process_reader_win.cc(182)] ResumeThread: The parameter is incorrect. (0x57)
+[0507/215446.897:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0507/215446.897:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0507/215446.897:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0507/215446.897:ERROR:process_reader_win.cc(123)] NtOpenThread: An invalid Client ID was specified. (0xc000000b)
+[0507/215446.934:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0507/215446.934:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0507/215446.934:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0507/215446.934:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0507/215446.934:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0507/215446.934:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0507/215446.934:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0507/215446.934:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0507/215446.934:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0507/215446.935:ERROR:exception_snapshot_win.cc(98)] thread ID 5364 not found in process
